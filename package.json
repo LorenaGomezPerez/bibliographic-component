@@ -1,0 +1,14 @@
+{
+	"name": "lit-element-webpack-example",
+	"version": "1.0.0",
+	"description": "Example project using Lit Element with Webpack",
+	"scripts": {
+		"start": "web-dev-server --node-resolve --open --watch"
+	},
+	"dependencies": {
+		"@web/dev-server": "^0.3.0",
+		"@webcomponents/webcomponentsjs": "^2.5.0",
+		"lit": "^2.0.0",
+		"lit-element": "^3.0.0"
+	}
+}
