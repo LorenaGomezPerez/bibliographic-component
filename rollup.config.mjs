@@ -6,7 +6,7 @@ import terser from "@rollup/plugin-terser";
 import summary from "rollup-plugin-summary";
 
 export default {
-  input: "index.html",
+  input: "./components/add-bibliography.js",
   plugins: [
     // Entry point for application build; can specify a glob to build multiple
     // HTML files for non-SPA app
